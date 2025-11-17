@@ -22,3 +22,18 @@ terraform apply
 ```
 terraform destroy -auto-approve
 ```
+9. Add your project files into the cloned folder
+```
+git add .
+git commit -m "Add project files"
+```
+10. Push the files to GitHub
+```
+git push origin main
+```
+11. Continue working (future updates)
+```
+git add .
+git commit -m "Update README"
+git push
+```
